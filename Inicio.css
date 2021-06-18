@@ -1,0 +1,134 @@
+body{
+    background-color: white;
+}
+
+.menu{
+  list-style: none;
+  margin:0%;
+  padding: 0%;
+  top: 0%;
+  left: 0%;
+  background: #1b4332;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+.menu ul{
+  display: flex;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover{
+  background: #d8f3dc;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*CUADRO DE BIENVENIDAAA*/
+.contenido{
+  max-width: 980px;
+  margin: 0 auto;
+  height: 250px;
+}
+.bloque h2{
+  margin-top: 40px;
+  text-align: center;
+  
+}
+
+.section__title {
+  font-size: 2em;
+  position: relative;
+  text-align: center;
+}
+.section__title:before {
+  content: "";
+  width: 200px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #b7e4c7;
+}
+.welcome{
+  text-align: center;
+  padding: 20px;
+  max-width: 750px;
+  margin: auto;
+  color: #b7e4c7;
+}
+.welcome__txt{
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+
+
+/*CUADROS CON IMÁGENEEES*/
+
+.card{
+  color: white;
+}
+
+  .con{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;   
+  }
+  
+  .con .card{
+  
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px #74c69d;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: #2d6a4f; 
+  }
+  
+  .con .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px #74c69d; 
+  }
+  
+  .con .card img{
+  width: 330px;
+  height: 220px; 
+  }
+  
+  .con .card h4{
+  font-weight: 600;  
+  }
+  
+  .con .card p{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;  
+  
+  }
+  
+  .lo{
+  height: 550px;
+  }
